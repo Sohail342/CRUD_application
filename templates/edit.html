@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form method="POST">
+    {% csrf_token %}
+    <div class="modal-header">						
+        <h4 class="modal-title">Edit Employee</h4>
+    </div>
+    <label for="fname">First name:</label><br>
+    <input type="text" class="form-group" id="fname" name="fname" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" class="form-group" id="email" name="email" required><br>
+
+    <label for="address">Address:</label><br>
+    <input type="text" class="form-group" id="address" name="address" required><br>
+
+    <label for="phone">Phone:</label><br>
+    <input type="text" class="form-group" id="phone" name="phone" required><br>
+
+    <button type="submit" class="btn btn-info">Edit</button>
+</form>
+
+{% endblock %}
