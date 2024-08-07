@@ -9,6 +9,10 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using the
 - Update: Edit existing employee details.
 - Delete: Remove an employee from the list.
 
+### Overview
+- CRUD Operations
+  
+![CRUD](static/assets/img/CRUD.JPG)
 
 
 ## Setup
