@@ -12,7 +12,7 @@ This is a simple CRUD (Create, Read, Update, Delete) application built using the
 ### Overview
 - CRUD Operations
   
-![CRUD](static/assets/img/CRUD.JPG)
+![CRUD](static/img/CRUD.JPG)
 
 
 ## Setup
