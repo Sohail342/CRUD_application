@@ -29,13 +29,13 @@ Clone the repository
 Create a virtual environment
 
 ```bash
-  python3 -m venv venv
+  python -m venv .env
 
 ```
 Activate virtual environment
 
 ```bash
-  source venv/bin/activate
+  source .env/bin/activate
 
 ```
 Install dependencies
